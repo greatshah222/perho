@@ -1,0 +1,17 @@
+.packageMain {
+  width: 100%;
+  display: block;
+}
+
+.packages {
+  width: 88%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pageState {
+  width: 88%;
+  margin: 0 auto;
+}

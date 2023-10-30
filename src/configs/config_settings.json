@@ -1,0 +1,760 @@
+{
+    "API_Server_Number": 1, 
+    "googleAnalytics": "",
+    "organization": {
+        "organizationId": "165988965",
+        "name":"Perho",
+  "key": "5DaW6a5hnN",
+  "companyId": 10154,
+  "groupId":165988966,
+        "channelServiceId": "128132818",
+        "radiantPlayerLicense": "Kl8lNz1pZ3ZvdnZrYT04Z2c9YT1pPW9zMnVzP3JvbTVkYXNpczMwZGIwQSVfKg=="
+    },
+    "languages": {
+        "ENG": {
+            "name": "ENG",
+            "value": "en_US"
+        },
+        "GREEK": {
+            "name": "GREEK",
+            "value": "el_GR"
+        },
+        "FI":{
+            "name": "FI",
+            "value": "fi_FI"
+
+        }
+
+    },
+    "components": {
+        "EventsCategoryItem":{
+
+            "limit":10,
+            "eventType":"all"
+        },
+        "EventsEditorChoice":{
+            "organizationId":"124292109",
+            "groupItemId":126941514,
+            "limit":"4"
+    
+           
+        },
+        "frontPageUpcomingEvents":{
+            "limit":3
+
+
+        },
+        "events":{
+            "limit":3
+
+
+
+
+        },
+        "purchaseflow": {
+            "paymentMethod": "bambora,voucher",
+            "returnUrlPath": "/event/",
+            "login": {
+                "redirect": false
+            }
+        },
+         
+        "frontPageBanner_01": {
+            "id": "frontPageBanner_01",
+            "groupItemId": "138424032",
+            "slickSettings": {
+                "dots": false,
+                "infiniteLoop": true,
+                "lazyLoad": false,
+                "interval": 3000,
+                "slidesToShow": 1,
+                "slidesToScroll": 1,
+                "autoPlay": false,
+                "showThumbs": false,
+                "centerMode": false,
+                "centerSlidePercentage": "100",
+                "showStatus": false,
+                "showDuration": false,
+                "showtitle": false,
+                "showActionButton": false
+            },
+            "routes": {
+                "videoRoute": "video",
+                "serieRoute": "serie",
+                "playVideo": "playVideo",
+                "categories": "series/categories"
+            },
+            "bannerComponent": "RenderBanner2",
+            "showTitle" : false
+        },
+        "hhjPageBanner_01": {
+            "id": "hhjPageBanner_01",
+            "groupItemId": "138426002",
+            "slickSettings": {
+                "dots": false,
+                "infiniteLoop": true,
+                "lazyLoad": false,
+                "interval": 3000,
+                "slidesToShow": 1,
+                "slidesToScroll": 1,
+                "autoPlay": false,
+                "showThumbs": false,
+                "centerMode": false,
+                "centerSlidePercentage": "100",
+                "showStatus": false,
+                "showDuration": false,
+                "showtitle": false,
+                "showActionButton": false
+            },
+            "routes": {
+                "videoRoute": "video",
+                "serieRoute": "serie",
+                "playVideo": "playVideo",
+                "categories": "series/categories"
+            },
+            "bannerComponent": "RenderBanner2",
+            "showTitle" : false
+        },
+        "frontPageEditorsChoice_01": {
+            "id": "frontPageEditorsChoice_01",
+            "groupItemId": "132747818",
+            "pushRoute": "video",
+            "showEditorChoiceIcon": false,
+            "routes": {
+                "videoRoute": "video",
+                "serieRoute": "serie"
+            }
+        },
+        "frontPageEventsEditorsChoice_01": {
+            "id": "frontPageEventsEditorsChoice_01",
+            "groupItemId": "131535806",
+            "routes": {
+                "videoRoute": "video",
+                "serieRoute": "serie"
+            }
+        },
+        "frontPagePromo_01": {
+            "id": "frontPagePromo_01",
+            "mode": "mode_1",
+            "maintainImageAspectRatio": "true",
+            "groupItemId": "135723180",
+            "itemImageComponent": "ItemImage1",
+            "itemTitleComponent": "ItemTitle1",
+            "slickSettings": {
+                "dots": false,
+                "infinite": false,
+                "axis": "horizontal",
+                "lazyLoad": false,
+                "autoPlaySpeed": 500,
+                "ssr": true,
+                "partialVisible": true,
+                "autoPlay": false,
+                "responsive": {
+                    "s1": {
+                        "breakpoint": {
+                            "max": 4000,
+                            "min": 1441
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s2": {
+                        "breakpoint": {
+                            "max": 1440,
+                            "min": 1200
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s3": {
+                        "breakpoint": {
+                            "max": 1199,
+                            "min": 1020
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 1
+                    },
+                    "s4": {
+                        "breakpoint": {
+                            "max": 1019,
+                            "min": 950
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s5": {
+                        "breakpoint": {
+                            "max": 949,
+                            "min": 861
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s6": {
+                        "breakpoint": {
+                            "max": 860,
+                            "min": 550
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s7": {
+                        "breakpoint": {
+                            "max": 549,
+                            "min": 0
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 1
+                    }
+                }
+            },
+            "routes": {
+                "videoRoute": "video",
+                "serieRoute": "serie"
+            }
+        },
+        "frontPageCategories_01": {
+            "id": "frontPageCategories_01",
+            "mode": "mode_4",
+            "categoryTitleComponent": "CategoryTitle2",
+            "maintainImageAspectRatio": true,
+            "imageType": "thumbnail",
+            "itemImageComponent": "ItemImage1",
+            "itemTitleComponent": "ItemTitle1",
+            "assetProperty": "",
+            "groupItemId": "135723601",
+            "routes": {
+                "videoRoute": "video",
+                "serieRoute": "serie",
+                "categories": "categories"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": false,
+                "axis": "horizontal",
+                "lazyLoad": false,
+                "autoPlaySpeed": 500,
+                "ssr": true,
+                "partialVisible": true,
+                "autoPlay": false,
+                "responsive": {
+                    "s1": {
+                        "breakpoint": {
+                            "max": 4000,
+                            "min": 1441
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 0,
+                        "slidesToSlide": 1
+                    },
+                    "s2": {
+                        "breakpoint": {
+                            "max": 1440,
+                            "min": 1200
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 0,
+                        "slidesToSlide": 1
+                    },
+                    "s3": {
+                        "breakpoint": {
+                            "max": 1199,
+                            "min": 1020
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 0,
+                        "slidesToSlide": 1
+                    },
+                    "s4": {
+                        "breakpoint": {
+                            "max": 1019,
+                            "min": 950
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 0,
+                        "slidesToSlide": 1
+                    },
+                    "s5": {
+                        "breakpoint": {
+                            "max": 949,
+                            "min": 861
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 0,
+                        "slidesToSlide": 1
+                    },
+                    "s6": {
+                        "breakpoint": {
+                            "max": 860,
+                            "min": 550
+                        },
+                        "items": 2,
+                        "partialVisibilityGutter": 0,
+                        "slidesToSlide": 1
+                    },
+                    "s7": {
+                        "breakpoint": {
+                            "max": 549,
+                            "min": 0
+                        },
+                        "items": 1,
+                        "partialVisibilityGutter": 0,
+                        "slidesToSlide": 1
+                    }
+                }
+            }
+        },
+        "frontPageCategories_02": {
+            "id": "frontPageCategories_02",
+            "mode": "mode_2",
+            "categoryTitleComponent": "CategoryTitle2",
+            "maintainImageAspectRatio": true,
+            "imageType": "thumbnail",
+            "itemImageComponent": "ItemImage1",
+            "itemTitleComponent": "ItemTitle1",
+            "assetProperty": "",
+            "groupItemId": "",
+            "routes": {
+                "videoRoute": "video",
+                "serieRoute": "serie",
+                "categories": "categories"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": false,
+                "axis": "horizontal",
+                "lazyLoad": false,
+                "autoPlaySpeed": 500,
+                "ssr": true,
+                "partialVisible": true,
+                "autoPlay": false,
+                "responsive": {
+                    "s1": {
+                        "breakpoint": {
+                            "max": 4000,
+                            "min": 1441
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 0,
+                        "slidesToSlide": 1
+                    },
+                    "s2": {
+                        "breakpoint": {
+                            "max": 1440,
+                            "min": 1200
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 0,
+                        "slidesToSlide": 1
+                    },
+                    "s3": {
+                        "breakpoint": {
+                            "max": 1199,
+                            "min": 1020
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 0,
+                        "slidesToSlide": 1
+                    },
+                    "s4": {
+                        "breakpoint": {
+                            "max": 1019,
+                            "min": 950
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 0,
+                        "slidesToSlide": 1
+                    },
+                    "s5": {
+                        "breakpoint": {
+                            "max": 949,
+                            "min": 861
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 0,
+                        "slidesToSlide": 1
+                    },
+                    "s6": {
+                        "breakpoint": {
+                            "max": 860,
+                            "min": 550
+                        },
+                        "items": 2,
+                        "partialVisibilityGutter": 0,
+                        "slidesToSlide": 1
+                    },
+                    "s7": {
+                        "breakpoint": {
+                            "max": 549,
+                            "min": 0
+                        },
+                        "items": 1,
+                        "partialVisibilityGutter": 0,
+                        "slidesToSlide": 1
+                    }
+                }
+            }
+        },
+        "episodesWithSerieTitles_01": {
+            "id": "episodesWithSerieTitles_01",
+            "categoryTitleComponent": "CategoryTitle2",
+            "maintainImageAspectRatio": true,
+            "itemImageComponent": "ItemImage1",
+            "itemTitleComponent": "ItemTitle1",
+            "assetProperty": "",
+            "routes": {
+                "videoRoute": "serie",
+                "serieRoute": "serie",
+                "categories": "serieDetails"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": false,
+                "axis": "horizontal",
+                "lazyLoad": false,
+                "autoPlaySpeed": 500,
+                "ssr": true,
+                "partialVisible": true,
+                "autoPlay": false,
+                "responsive": {
+                    "s1": {
+                        "breakpoint": {
+                            "max": 4000,
+                            "min": 1441
+                        },
+                        "items": 5,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s2": {
+                        "breakpoint": {
+                            "max": 1440,
+                            "min": 1200
+                        },
+                        "items": 5,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s3": {
+                        "breakpoint": {
+                            "max": 1199,
+                            "min": 1020
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 1
+                    },
+                    "s4": {
+                        "breakpoint": {
+                            "max": 1019,
+                            "min": 950
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s5": {
+                        "breakpoint": {
+                            "max": 949,
+                            "min": 861
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s6": {
+                        "breakpoint": {
+                            "max": 860,
+                            "min": 550
+                        },
+                        "items": 2,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s7": {
+                        "breakpoint": {
+                            "max": 549,
+                            "min": 0
+                        },
+                        "items": 2,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 1
+                    }
+                }
+            }
+        },
+        "SeriesListAllSeries_01": {
+            "id": "SeriesListAllSeries_01",
+            "itemImageComponent": "ItemImage1",
+            "itemTitleComponent": "ItemTitle1",
+            "categoryTitleComponent" : "CategoryTitle2",
+            "slickSettings": {
+                "dots": false,
+                "infinite": true,
+                "lazyLoad": false,
+                "sautoPlaySpeed": 500,
+                "ssr": true,
+                "partialVisible": true,
+                "autoPlay": false,
+                "responsive": {
+                    "s1": {
+                        "breakpoint": {
+                            "max": 4000,
+                            "min": 1441
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s2": {
+                        "breakpoint": {
+                            "max": 1440,
+                            "min": 1200
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 3
+                    },
+                    "s3": {
+                        "breakpoint": {
+                            "max": 1199,
+                            "min": 1020
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 2
+                    },
+                    "s4": {
+                        "breakpoint": {
+                            "max": 1019,
+                            "min": 950
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 2
+                    },
+                    "s5": {
+                        "breakpoint": {
+                            "max": 949,
+                            "min": 861
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 2
+                    },
+                    "s6": {
+                        "breakpoint": {
+                            "max": 860,
+                            "min": 550
+                        },
+                        "items": 2,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s7": {
+                        "breakpoint": {
+                            "max": 549,
+                            "min": 0
+                        },
+                        "items": 1,
+                        "partialVisibilityGutter": 0,
+                        "slidesToSlide": 1
+                    }
+                }
+            },
+            "routes": {
+                "videoRoute": "video",
+                "serieRoute": "series/categories"
+            }
+        },
+        "svodSimilar_01": {
+            "id": "svodSimilar_01",
+            "assetProperty": "",
+            "categoryTitleComponent": "CategoryTitle2",
+            "maintainImageAspectRatio": true,
+            "imageType": "thumbnail",
+            "itemImageComponent": "ItemImage1",
+            "itemTitleComponent": "ItemTitle1",
+            "routes": {
+                "videoRoute": "video",
+                "serieRoute": "serie"
+            },
+            "slickSettings": {
+                "dots": false,
+                "infinite": false,
+                "lazyLoad": false,
+                "autoPlaySpeed": 500,
+                "axis": "horizontal",
+                "ssr": true,
+                "partialVisible": true,
+                "autoPlay": false,
+                "responsive": {
+                    "s1": {
+                        "breakpoint": {
+                            "max": 4000,
+                            "min": 1441
+                        },
+                        "items": 5,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s2": {
+                        "breakpoint": {
+                            "max": 1440,
+                            "min": 1200
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s3": {
+                        "breakpoint": {
+                            "max": 1199,
+                            "min": 1020
+                        },
+                        "items": 4,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 1
+                    },
+                    "s4": {
+                        "breakpoint": {
+                            "max": 1019,
+                            "min": 950
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s5": {
+                        "breakpoint": {
+                            "max": 949,
+                            "min": 861
+                        },
+                        "items": 3,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s6": {
+                        "breakpoint": {
+                            "max": 860,
+                            "min": 550
+                        },
+                        "items": 2,
+                        "partialVisibilityGutter": 40,
+                        "slidesToSlide": 1
+                    },
+                    "s7": {
+                        "breakpoint": {
+                            "max": 549,
+                            "min": 0
+                        },
+                        "items": 2,
+                        "partialVisibilityGutter": 20,
+                        "slidesToSlide": 1
+                    }
+                }
+            }
+        },
+        "svodChosenCategoryGrid_01": {
+            "id": "svodChosenCategoryGrid_01",
+            "categoryTitleComponent": "CategoryTitle2",
+            "itemImageComponent": "ItemImage1",
+            "itemTitleComponent": "ItemTitle1",
+            "maintainImageAspectRatio": true,
+            "imageType": "thumbnail",
+            "assetProperty": "",
+            "routes": {
+                "videoRoute": "video",
+                "serieRoute": "serie"
+            }
+        },
+        "hhjCategoryGrid_01": {
+            "id": "hhjCategoryGrid_01",
+            "categoryTitleComponent": "CategoryTitle2",
+            "itemImageComponent": "ItemImage1",
+            "itemTitleComponent": "ItemTitle1",
+            "maintainImageAspectRatio": true,
+            "imageType": "thumbnail",
+            "preDefinedCategory": "131531160",
+            "assetProperty": "",
+            "routes": {
+                "videoRoute": "video",
+                "serieRoute": "serie"
+            }
+        },
+        "radiantMediaPlayer_01": {
+            "backRoute": "/"
+        },
+        "profile": {
+            "fields": {
+                "firstName": false,
+                "lastName": false,
+                "address": false,
+                "phone": false,
+                "city": false,
+                "country": false,
+                "email": true,
+                "dateOfBirth": false
+            }
+        },
+        "signUp": {
+            "fields": {
+                "firstName": false,
+                "lastName": false,
+                "address": false,
+                "phone": false,
+                "city": false,
+                "country": false,
+                "email": true,
+                "dateOfBirth": false,
+                "passwordConfirm": false
+            }
+        },
+        "search_01": {
+            "itemImageComponent": "ItemImage1",
+            "itemTitleComponent": "ItemTitle1",
+            "hideToggles" : true,
+            "routes": {
+                "videoRoute": "video",
+                "serieRoute": "serie",
+                "svodSeriesCategoriesRoute": "series/categories"
+            }
+        }
+
+         
+    },
+    "routes": {
+        "svodSerieRoute": "serie",
+        "svodVideoRoute": "video",
+        "svodCategoriesRoute": "categories",
+        "svodSeriesCategoriesRoute": "series/categories",
+        "categories": "categories",
+        "profile": "profile",
+        "login": "login",
+        "tvod": "rental",
+        "svod": "watch",
+        "faq": "faq",
+        "tos": "tos",
+        "hhj": "HHJ",
+        "videos" : "videos",
+        "search": "search",
+        "events": "events",
+        "series": "series",
+        "playVideo": "playVideo",
+        "playSerie": "playVideoSerie",
+        "signUp": "signUp",
+        "home": "/",
+        "packages": "packages",
+        "eventBasedOnCategory":"events/:categoryName/:organizationId/:categoryId",
+        "upcomingEvent":"event/:orgId/:eventId"
+
+    },
+    "language": "fi_FI"
+}

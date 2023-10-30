@@ -1,0 +1,47 @@
+.receiptView {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.receiptTitle {
+  color: var(--mainBlack);
+  font-size: 1.5rem;
+  width: 80%;
+  margin: 10px auto;
+  text-align: left;
+}
+
+.receiptText {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.receiptFailureMessage {
+  width: 80%;
+  margin: 0 auto;
+  color: var(--red);
+}
+
+.receiptReturnPath {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.receiptReturnButton {
+  border: 1px solid var(--brand);
+  background-color: var(--brand);
+  color: var(--brandHover);
+  text-align: center;
+  padding: 3px 30px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.receiptReturnButton:hover {
+  color: var(--brand);
+  background-color: var(--brandHover);
+  border: 1px solid var(--brandHover);
+}

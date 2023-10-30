@@ -1,0 +1,24 @@
+.GuidesBar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #141318;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.GuidesBarItemContainer {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.GuidesBarItemText1 {
+  font-size: var(--font16);
+  color: white;
+}
+
+.GuidesBarItemText2 {
+  font-size: var(--font14);
+  color: #f87d3a;
+}

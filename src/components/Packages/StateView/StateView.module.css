@@ -1,0 +1,51 @@
+.stateViewContainer {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+}
+
+.stateView {
+  border-bottom: 2px solid var(--mainBlack);
+  color: var(--mainBlack);
+  text-align: center;
+  width: calc(33% - 1em);
+  font-size: 1.5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stateView:not(:last-child)::before {
+  display: block;
+  content: ' \003E';
+  height: 1em;
+  width: 1em;
+  line-height: 1em;
+  border-radius: 100%;
+  margin-bottom: 0.25rem;
+  text-align: center;
+  z-index: 1;
+  font-size: 18px;
+  border: 4px solid;
+  padding: 4px;
+  position: absolute;
+  bottom: -20px;
+  /* right: -30px; */
+  right: calc(33% - (33% + 2em));
+  color: var(--gray);
+}
+.stateViewSelected:not(:last-child)::before {
+  color: var(--brand);
+}
+
+.stateView:hover {
+  cursor: pointer;
+}
+
+.stateViewSelected {
+  border-bottom: 2px solid var(--brand);
+  color: var(--brand);
+}

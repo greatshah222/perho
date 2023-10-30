@@ -1,0 +1,80 @@
+.searchContainer {
+    display: flex;
+    flex-direction: column;
+    color: var(--mainBrand);
+    
+    margin: 0 auto;
+    padding: 20px 0;
+  width: 88%;
+  margin: 0 auto;
+    
+  }
+
+.searchContainer_back_icon{
+    display: flex;
+    align-items: center;
+    color: var(--mainCategoryViewAll);
+}
+.searchContainer_back_icon:hover{
+    cursor: pointer;
+    color: var(--mainCategoryViewAllHover);
+
+}
+
+.searchContainer_back{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.FaIcon {
+    margin-right: 12px;
+  }
+
+  .FaIconSearch:hover{
+    cursor: pointer;
+    color: var(--mainCategoryViewAllHover);
+
+}
+
+#searchForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .searchRow {
+    margin-bottom: 1%;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .searchColumn {
+    display: flex;
+    /* flex-direction: column; */
+    min-height: 50px;
+    max-height: 50px;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--mainWhite);
+    width: 400px;
+    outline: 0.1px solid var(--brand);
+  }
+
+  .searchField {
+    padding: 18px 0;
+    min-height: 50px;
+    max-height: 50px;
+    height: 50px;
+    text-align: center;
+    /*border-radius: 2px;*/
+    flex: 4;
+    border: none;
+    outline: none;
+  }

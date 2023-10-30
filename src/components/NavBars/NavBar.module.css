@@ -1,0 +1,91 @@
+.navBarRow {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  font-weight: 400;
+  justify-content: space-between;
+}
+
+.hhj {
+  color: green;
+}
+
+.navBar {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  height: 72px;
+  background-color: var(--navBarBackgroundColor);
+  /* width: 80%; */
+  align-items: center;
+  color: var(--navBarButtonColor);
+  z-index: 5;
+  padding: 0 20px;
+  width: 100%;
+}
+.navBar:first-child a {
+  z-index: 9999999 !important;
+}
+
+.navBarRow_primary {
+  flex: 3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navBarRow_primary li,
+.navRight li {
+  text-decoration: none;
+  list-style: none;
+  /*color: var(--silver);*/
+  display: flex;
+}
+.navBarRow_primary li a,
+.navRight li a {
+  text-decoration: none;
+  list-style: none;
+  /*color: var(--silver);*/
+  position: relative;
+}
+
+.navRight {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  flex: 2;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navRight > * + * {
+  margin-left: 20px !important;
+}
+
+@media (max-width: 1200px) {
+  .navBar {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 991px) {
+  .navBar {
+    justify-content: space-between;
+  }
+  .navBarRow {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-weight: 400;
+    justify-content: flex-end;
+  }
+  .navBarRow_primary {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .navRight {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.siteLogoContainer {
+  min-width: 10%;
+}

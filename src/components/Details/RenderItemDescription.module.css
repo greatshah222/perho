@@ -1,0 +1,18 @@
+.itemDescription {
+  width: 100%;
+  box-sizing: border-box;
+  float: left;
+  /* padding: 0 15% 0 1%; */
+  color: var(--silver);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 22.4px;
+  line-height: 1.62857;
+}
+
+@media (max-width: 550px) {
+  .itemDescription {
+    line-height: 19.6px;
+    line-height: 1.62857;
+  }
+}

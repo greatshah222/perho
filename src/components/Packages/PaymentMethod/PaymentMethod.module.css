@@ -1,0 +1,15 @@
+.paymentMethodContainer {
+  width: 100%;
+}
+
+.paymentMethodBuy {
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.paymentMethodImage {
+  max-height: 80px;
+  max-width: 100%;
+}

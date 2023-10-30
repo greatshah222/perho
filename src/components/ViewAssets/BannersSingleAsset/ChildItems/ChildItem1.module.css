@@ -1,0 +1,13 @@
+.itemContainer {
+  display: flex;
+  width: 100%;
+}
+
+.itemImage {
+  width: 50%;
+}
+/*
+.itemDetailsContainer {
+
+}
+*/

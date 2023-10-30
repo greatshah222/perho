@@ -1,0 +1,35 @@
+.packagesView {
+}
+
+.packages {
+  width: 88%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 300px));
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.packageHelp {
+  width: 88%;
+  margin: 0 auto;
+}
+
+.packageHelpTitle {
+  color: var(--mainBlack);
+  font-size: 1.5rem;
+  /* width: 88%; */
+  margin: 0 auto;
+  text-align: left;
+}
+
+.packageHelpText {
+  color: var(--mainBlack);
+  /* width: 88%; */
+  margin: 50px auto;
+
+  padding: 30px 30px;
+  background-color: whitesmoke;
+}

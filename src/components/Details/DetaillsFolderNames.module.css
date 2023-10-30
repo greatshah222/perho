@@ -1,0 +1,14 @@
+.folderName {
+  margin-right: 0.5rem;
+  background: var(--darkGray);
+  color: var(--blueSilver);
+  border-radius: 5px;
+  padding: 10px 10px;
+
+  border-radius: 100px;
+}
+.folderName:hover {
+  background: var(--brandHover);
+  cursor: pointer;
+  color: var(--brand);
+}

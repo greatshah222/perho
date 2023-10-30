@@ -1,0 +1,7 @@
+.activeSelected {
+  color: var(--navBarButtonSelectedColor) !important;
+}
+
+.FaIcon {
+margin-right: 5px;
+}

@@ -1,0 +1,90 @@
+.packageComponent {
+  width: 28%;
+  min-width: 300px;
+  border: 2px solid var(--brand);
+  border-radius: 4px;
+  /* margin: 0px 2% 2%; */
+  background-color: var(--mainWhite);
+  height: 550px;
+  padding: 20px 10px;
+  position: relative;
+}
+
+.packageTitle {
+  color: var(--brand);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.packagePrice {
+  color: var(--brand);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 1px solid var(--gray);
+  margin-bottom: 20px;
+  padding: 35px 0;
+  word-wrap: break-word;
+}
+
+.packageDescription {
+  text-align: center;
+  /* font-size: 1rem; */
+  color: var(--mainBlack);
+  /* height: 200px; */
+  min-height: 250px;
+}
+
+.packageBuyButtonContainer {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.packageBuyButton {
+  border: 1px solid var(--brand);
+  background-color: var(--brand);
+  color: var(--brandHover);
+}
+
+.packageBuyButton:hover {
+  color: var(--brand);
+  background-color: var(--brandHover);
+  border: 1px solid var(--brandHover);
+}
+
+.packageBoughtButton {
+  border: 1px solid var(--brand);
+  background-color: var(--brand);
+  color: var(--brandHover);
+  text-align: center;
+  padding: 3px 30px;
+  font-size: 1rem;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.popupEmailForm {
+  width: 100%;
+}
+.popupEmailForm input {
+  padding: 11px 10px;
+  border: none;
+  /* background: #12161d; */
+  color: var(--mainBlack);
+  /* font-family: 'Gotham Greek Light', sans-serif !important; */
+  /* // safari support */
+
+  -webkit-appearance: initial;
+}
+.emailConfirmModalButton{
+
+  display: flex;
+  align-items: center;
+}
+
+.emailConfirmModalButton *+*{
+  margin-left: 10px;
+}

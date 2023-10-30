@@ -1,0 +1,285 @@
+{
+    "banner" : {
+        "action" : "Play"
+    },
+    "categoryTitle" : {
+        "viewAllButton" : "View All"
+    },
+    "buyToto" : {
+        "checkAndBuy" : "Checkout"
+    },
+    "categoryDropdown" : {
+        "categories" : "Categories"
+    },
+    "changePassword" : {
+        "askForNewPassword" : "Enter your password here",
+        "askForConfirmPassword" : "Enter your password here again",
+        "askForOldPassword" : "Enter your old password here",
+        "changedSuccessfully" : "Password changed successfully",
+        "somethingWrongTryAgain" : "Something went wrong, please try again",
+        "title" : "Change password",
+        "errorPasswordNotLongEnough" : "Password has to be at least {{count}} characters)",
+        "errorPasswordsDontMatch" : "Passwords don't match",
+        "save" : "Save"
+    },
+    "eventsCategory": {
+        "viewAllButton" : "View All",
+        "upcomingEventsTitle" : "Upcoming Events",
+        "filters" : "Filters",
+        "removeFilter" : "Remove Filter",
+        "filterEventsByDate" : "Filter Events Based on Start And End Date",
+        "liveNowEventsTitle" : "Live Now Events",
+        "errorStartEndSame" : "Start And End Date Cannot be same",
+        "selectDate" : "Select Date",
+        "noEvents" : "No Events",
+        "hhjEvents" : "HHJ Events",
+        "eventNotStarted":"The Events Has Not started yet",
+        "days":"Days",
+        "hours":"Hours",
+        "minutes":"Minutes",
+        "seconds":"Seconds",
+        "eventsEnded":"The Event has Ended",
+        "invalidTicket":"Invalid Ticket",
+        "buyTickets":"Buy Ticket",
+        "enterTicket":"Enter Ticket",
+        "enterYourTicket":"Enter Your Ticket",
+        "watch":"Watch",
+        "eventStarted":"The Event has Started" ,
+    "confirm":"Confirm" ,
+    "cancel":"Cancel"
+    },
+    "reactDateRange":{
+
+        "today":"Today",
+        "yesterday":"Yesterday",
+        "thisWeek":"This Week",
+        "lastWeeek":"Last Week",
+        "thisMonth":"This Month",
+        "lastMonth":"Last Month",
+        "daysUpToToday":"days up to today",
+        "daysStartingToday":"days starting today"
+
+    },
+    "similarSlider" : {
+        "title" : "Similar"
+    },
+   
+    "contactUs": {
+        "address" : "Address",
+        "contactUs" : "Contact Us",
+        "phone" : "Phone",
+        "sendEmail" : "Send Email"
+    },
+    "detailsBanner" : {
+        "action" : "Watch"
+    },
+    "detailsInfo" : {
+        "director" : "Director",
+        "actors" : "Actors",
+        "releaseYear" : "Release year",
+        "duration" : "Duration",
+        "languages" : "Languages",
+        "subtitles" : "Subtitles"
+    },
+    "editorsChoice" : {
+        "videosTitle" : "Editor's Choice Videos",
+        "eventsTitle" : "Editor's Choice Events"
+    },
+    "faq" : {
+        "title" : "Frequently asked questions"
+    },
+    "footer": {
+        "contactUs" : "Contact Us",
+        "tos" : "Terms & conditions",
+        "cookiesPolicy" : "Cookies Policy",
+        "menu" : "Menu",
+        "socialMedia" : "Social Media",
+        "copyRight" : "Copyright © 2021 - Digital Tree Media. All rights reserved",
+        "hoverLogoBackToHome" : "Back to Home"
+    },
+    "instructions": {
+        "page" : "Page",
+        "download" : "Download"
+    },
+    "itemTitle" : {
+        "available" : "Available",
+        "views" : "Views"
+    },
+    "languageSelect" : {
+        "finnish" : "Finnish",
+        "english" : "English",
+        "swedish" : "Swedish",
+        "greekish" : "Greekish"
+    },
+    "login" : {
+        "loginButton" : "Login",
+        "logOutButton" : "Logout",
+        "profileButton" : "Profile"
+    },
+    "loginForm" : {
+        "title" : "Login",
+        "loginForAccess" : "Please Login to have Access",
+        "loginButton" : "Login",
+        "askForEmail" : "Enter your email here",
+        "askForPassword": "Enter your password here",
+        "newUserLink" : "New user in site?",
+        "signUpLink" : "SignUp now",
+        "errorIncorrectEmailAddress" :"Incorrect email address, please try again",
+        "wrongPassword" : "Please check your password and try again"
+    },
+    "profileMenu": {
+        "loginFirst" : "To view this page, you need to login first",
+        "userDetails" : "User Details",
+        "subscriptions" : "Subscriptions",
+        "changePassword" : "Change Password"
+    },
+    "navBar" : {
+        "backToHome" : "Back to Home",
+        "contactUs" : "Contact Us",
+        "onlineTV" : "Online TV",
+        "tvShows" : "All Shows",
+        "search" : "Search",
+        "faq" : "FAQ",
+        "hhj" : "HHJ",
+        "buy" : "Buy",
+        "series" : "Series",
+        "events" : "Events",
+        "videos" : "Videos",
+        "device" : "Hevosviihde Box",
+        "instructions" : "Instructions"
+    },
+    "navBarCategoryDropDown" : {
+        "categories" : "Categories"
+    },
+    "product" : {
+        "buy" : "Buy"
+    },
+    "packages": {
+        "LoggedInAs": "You are LoggedIn As",
+        "Order": "Order",
+        "Bought": "Bought",
+        "Pending": "Pending",
+        "PackageHelpTitle": "",
+        "PackageHelpText": "Below you will find the products that can be ordered",
+        "PackageHelpText2": "Once you have selected the product you want, you will need to select a payment method. The order will take effect after a successful payment",
+        "PackageChoosePackage": "Select a product",
+        "PackagePayment": "Payment",
+        "PackageReceipt": "Confirmation",
+        "PackagePaymentHelp": "You can pay with the payment methods below.",
+        "PackagePaymentMethods": "Choose Payment Method.",
+        "PackageUserNotLoggedIn": "Note: You must log in or register before you can continue.",
+        "VoucherTitle": "Enter Coupon",
+        "GiveVoucherCode": "Etukuponki",
+        "VoucherCheckCode": "Check Your Coupon",
+        "Ok": "Ok",
+        "Cancel": "Cancel",
+        "VoucherErrorCode20": "Etukuponkia ei löydy",
+        "VoucherErrorCode21": "Etukuponki on jo käytetty",
+        "VoucherErrorCode22": "Etukuponki on vanhentunut",
+        "VoucherErrorCode23": "Etukuponki liittyy toiseen tuotteeseen",
+        "PurchaseErrorCode18": "Käyttäjällä on jo tämä tuote",
+        "PurchaseErrorCode19": "Virhe ostotapahtumassa. Palaa takaisin 'Valitse tuote' -sivulle ja valitse tuote uudelleen.",
+        "PurchaseErrorCode27": "Päällekkäinen maksutapahtuma. Käyttäjä osti tämän tuotteen aiemmin (Tämä virheilmoitus voi myös tulla jos latasit tämän sivun uudelleen)",
+        "PurchaseErrorCode28": "Käyttäjä perui ostoksen",
+        "IncludeVat": "Includes. {{taxPerc}}% {{taxType}}",
+        "ReceiptThank": "Thank you for your purchase, you can return to the homepage if you wish.",
+        "ReceiptText": "Purchased products:",
+        "ReceiptPurchaseFailed": "Purchase failed",
+        "ReceiptMoveToOrig": "Return to the Video page",
+        "ReceiptMoveToFront": "Return to the Home page"
+    },
+    
+    "search" : {
+        "searchButton" : "Search",
+        "newFirst" : "Newest First",
+        "alphabetically" : "A-Z",
+        "showAll" : "Show All",
+        "showOnlyMovies" : "Only Movies",
+        "showOnlySeries" : "Only Series",
+        "searchByName" : "Search by name",
+        "searchResults" : "results",
+        "searchNoMatch" : "Unfortunately we did not find any videos to match your search. Did you check your search term?",
+        "back":"Back"
+    },
+    "seasonsAndEpisodes" : {
+        "title" : "Season"
+    },
+    
+    "seriesSlider" : {
+        "title" : "SHOWS",
+        "trendingShows":"Trending Shows",
+        "trending":"Trending",
+        "latest":"Latest"
+    },
+    "signUpBar" : {
+        "inputPlaceholderEmail" : "Email",
+        "signupButton" : "Sign Up",
+        "subscribe" : "Subscribe",
+        "welcomeText1" : "Sign Up for Free - Hundreds of hours of videos",
+        "welcomeText2" : "",
+        "errorIncorrectEmailAddress" : "Incorrect email address, please try again"
+    },
+    "signUpForm" : {
+        "agreeOnTerms" : "By signing up you are agreeing to our terms & conditions",
+        "title" : "Sign Up",
+        "address" : "Address",
+        "city" : "City",
+        "country" : "Country",
+        "dateOfBirth" : "Date of Birth",
+        "firstName" : "First Name",
+        "lastName" : "Last Name",
+        "phone" : "Phone",
+        "askForAddress" : "Please enter the address",
+        "askForCity" : "Please enter the city",
+        "askForCountry" : "Please select the country",
+        "askForConfirmPassword" : "Enter your password here again",
+        "askForDateOfBirth" : "Please enter the date of birth (yyyy-mm-dd)",
+        "askForFirstName" : "Please enter your first name here",
+        "askForLastName" : "Please enter your last name here",
+        "askForPassword" : "Enter your password here",
+        "askForPhone" : "Please enter the phone number",
+        "errorPasswordNotLongEnough" : "Please Enter (at least {{count}} characters)",
+        "errorPasswordsDontMatch" : "Passwords don't match",
+        "inputPlaceholderEmail" : "Enter your email address here...",
+        "incorrectEmailAddress" : "Incorrect email address, please try again",
+        "submitButton" : "Next"
+        
+    },
+    "similiarSlider" : {
+        "title" : "Similiar"
+    },
+    "subscriptions": {
+        "title" : "Your active subscriptions",
+        "subTitle" : "Orders",
+        "assetTitle": "Purchases",
+        "activeTill" : "Validity period",
+        "nextPayment" : "Next Payment",
+        "buyDate" : "Date of purchase",
+        "placeholder" : "You have no orders or purchases"
+    },
+    "userDetails" : {
+        "somethingWrongTryAgain" : "Something went wrong, please try again",
+        "profileUpdated" : "Profile updated",
+        "userDetails" : "User Details",
+        "inputPlaceholderFirstName" : "First Name",
+        "inputPlaceholderLastName" : "Last name",
+        "inputPlaceholderEmail" : "Email",
+        "inputPlaceholderPhone" : "Phone",
+        "inputPlaceholderAddress" : "Address",
+        "inputPlaceholderCity" : "City",
+        "inputPlaceholderCountry" : "Country",
+        "askForFirstName" : "Please enter your first name here",
+        "askForLastName" : "Please enter your last name here",
+        "askForPhone" : "Please enter the phone number",
+        "askForAddress" : "Please enter the address",
+        "askForCity" : "Please enter the city",
+        "askForCountry" : "Please select the country",
+        "incorrectEmailAddress" : "Incorrect email address, please try again",
+        "saveChanges" : "Save"
+    },
+    "videoPlayer" : {
+        "showPlayer" : "Show Player",
+        "close" : "Close"
+    }
+
+}

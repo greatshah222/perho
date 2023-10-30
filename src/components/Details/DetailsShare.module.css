@@ -1,0 +1,30 @@
+.details_share {
+  display: flex;
+  /* padding-top: 35px; */
+  flex-wrap: wrap;
+  width: 100%;
+  /* gap: 20px; */
+  align-items: center;
+  justify-content: flex-start;
+}
+.details_share a {
+  text-decoration: none;
+  color: var(--brand);
+}
+.details_share a:hover {
+  color: var(--brandHover);
+}
+
+.shareBTN {
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 8.57px;
+  height: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+  color: var(--brand);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

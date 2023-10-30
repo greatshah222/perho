@@ -1,0 +1,32 @@
+.selectedPackage {
+  width: 80%;
+  margin: 10px auto;
+  text-align: left;
+  font-size: 1rem;
+  color: var(--mainBlack);
+  display: table;
+}
+
+.selectedPackageRow {
+  display: table-row;
+}
+
+.selectedPackageCol {
+  display: table-cell;
+}
+
+.selectedPackageName {
+  white-space: nowrap;
+  display: table-cell;
+  width: 20%;
+}
+
+.selectedPackagePrice {
+  white-space: nowrap;
+  display: table-cell;
+}
+
+.selectedPackageVat {
+  white-space: nowrap;
+  display: table-cell;
+}

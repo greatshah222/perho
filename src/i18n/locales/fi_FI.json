@@ -1,0 +1,285 @@
+{
+    "banner" : {
+        "action" : "Katso"
+    },
+    "buyToto" : {
+        "checkAndBuy" : "Tutustu ja tilaa"
+    },
+    "categoryTitle" : {
+        "viewAllButton" : "Näytä kaikki"
+    },
+    "categoryDropdown" : {
+        "categories" : "Kategoriat"
+    },
+    "changePassword" : {
+        "askForNewPassword" : "Uusi salasana",
+        "askForConfirmPassword" : "Uusi salasana uudelleen",
+        "askForOldPassword" : "Vanha salasana",
+        "changedSuccessfully" : "Salasana vaihdettu",
+        "somethingWrongTryAgain" : "Jotain meni vikaan, yritä uudelleen",
+        "title" : "Vaihda salasana",
+        "errorPasswordNotLongEnough" : "Salasanan täytyy olla vähintään {{count}} merkkiä pitkä",
+        "errorPasswordsDontMatch" : "Salasanat eivät täsmää",
+        "save" : "Tallenna"
+    },
+    "contactUs": {
+        "address" : "Lähiosoite:",
+        "contactUs" : "Ota yhteyttä",
+        "phone" : "Puhelin",
+        "sendEmail" : "Lähetä sähköpostia"
+    },
+    "detailsBanner" : {
+        "action" : "Katso" 
+    },
+    "detailsInfo" : {
+        "director" : "Ohjaaja",
+        "actors" : "Näyttelijät",
+        "releaseYear" : "Julkaisuvuosi",
+        "duration" : "Kesto",
+        "languages" : "Kielet",
+        "subtitles" : "Teksitykset"
+    },
+    "editorsChoice" : {
+        "videosTitle" : "Suositellut videot",
+        "eventsTitle" : "Suositellut tapahtumat"
+    },
+    "eventsCategory":{
+        "viewAllButton" : "Näytä kaikki",
+        "upcomingEventsTitle" : "Tulevat tapahtumat",
+        "filters" : "Suodatukset",
+        "removeFilter" : "Poista suodatus",
+        "filterEventsByDate" : "Suodata tapahtumat alku- ja loppupäivämäärän mukaan",
+        "liveNowEventsTitle" : "Meneillään olevat tapahtumat",
+        "errorStartEndSame" : "Alku- ja loppupäivämäärä eivät voi olla samat",
+        "selectDate" : "Valitse päivämäärä",
+        "noEvents" : "Ei tapahtumia",
+        "hhjEvents" : "HHJ Tapahtumat",
+        "eventNotStarted":"Tapahtuma ei ole vielä alkanut",
+        "days":"Päivää",
+        "hours":"Tuntia",
+        "minutes":"Minuuttia",
+        "seconds":"Sekuntia",
+        "eventsEnded":"Tapahtuma on loppunut",
+        "invalidTicket":"Virheellinen lippunumero",
+        "buyTickets":"Osta liput",
+        "enterTicket":"Syötä lippusi",
+        "enterYourTicket":"Syötä lippusi",
+        "watch":"Katso",
+        "eventStarted":"Tapahtuma on alkanut" ,
+    "confirm":"Vahvista" ,
+"cancel":"Peruuta"  },
+    "faq" : {
+        "title" : "Usein kysytyt kysymykset"
+    },
+    "footer": {
+        "contactUs" : "Ota yhteyttä",
+        "tos" : "Käyttöehdot",
+        "menu" : "Valikko",
+        "socialMedia" : "Sosiaalinen media",
+        "copyRight" : "Copyright © 2021 - Digital Tree Media. Kaikki oikeudet pidätetään",
+        "hoverLogoBackToHome" : "Takaisin etusivulle"
+    },
+    "instructions": {
+        "page" : "Sivu",
+        "download" : "Lataa"
+    },
+    "itemTitle" : {
+        "available" : "Saatavilla",
+        "views" : "Näyttökertaa"
+    },
+    "languageSelect" : {
+        "finnish" : "Suomeksi",
+        "english" : "Englanniksi",
+        "swedish" : "Ruotsiksi",
+        "greek" : "Kreikaksi"
+    },
+    "login" : {
+        "loginButton" : "Kirjaudu sisään",
+        "logOutButton" : "Kirjaudu ulos",
+        "profileButton" : "Profiili"
+    },
+    "loginForm" : {
+        "title" : "Kirjautuminen",
+        "loginForAccess" : "Kirjaudu päästäksesi sisään",
+        "loginButton" : "Kirjaudu",
+        "askForEmail" : "Anna sähköposti",
+        "askForPassword": "Anna salasana",
+        "newUserLink" : "Oletko uusi käyttäjä?",
+        "signUpLink" : "Liity nyt!",
+        "errorIncorrectEmailAddress" : "Virheellinen sähköposti, yritä uudelleen",
+        "wrongPassword" : "Tarkista salasana ja yritä uudelleen"
+    },
+    "navBar" : {
+        "backToHome" : "Takaisin etusivulle",
+        "contactUs" : "Ota yhteyttä",
+        "onlineTV" : "Online TV",
+        "tvShows" : "TV Sarjat",
+        "search" : "Haku",
+        "faq" : "UKK",
+        "hhj" : "HHJ",
+        "buy" : "Tilaa",
+        "series" : "Sarjat",
+        "events" : "Tapahtumat",
+        "videos" : "Videot",
+        "device" : "Hevosviihde Boxi",
+        "instructions" : "Ohjeet"
+    },
+    "navBarCategoryDropDown" : {
+        "categories" : "Kategoriat"
+    },
+    "packages": {
+        "LoggedInAs": "Olet kirjautunut sisään käyttäjänimellä",
+        "Order": "Tilaa",
+        "Bought": "Ostettu",
+        "Pending": "Odottaa",
+        "PackageHelpTitle": "",
+        "PackageHelpText": "Alta löydät tilattavissa olevat tuotteet",
+        "PackageHelpText2": "Kun olet valinnut haluamasi tuotteen, sinun tulee valita maksutapa. Tilaus tulee voimaan onnistuneen maksusuorituksen jälkeen.",
+        "PackageChoosePackage": "Valitse tuote",
+        "PackagePayment": "Maksu",
+        "PackageReceipt": "Vahvistus",
+        "PackagePaymentHelp": "Voit maksaa alla olevilla maksutavoilla.",
+        "PackagePaymentMethods": "Valitse maksutapa.",
+        "PackageUserNotLoggedIn": "Huomio: Sinun täytyy kirjautua sisään tai rekisteröityä, ennenkuin voit jatkaa.",
+        "VoucherTitle": "Anna etukuponki",
+        "GiveVoucherCode": "Etukuponki",
+        "VoucherCheckCode": "Tarkista etukuponki",
+        "Ok": "Ok",
+        "Cancel": "Peruuta",
+        "VoucherErrorCode20": "Etukuponkia ei löydy",
+        "VoucherErrorCode21": "Etukuponki on jo käytetty",
+        "VoucherErrorCode22": "Etukuponki on vanhentunut",
+        "VoucherErrorCode23": "Etukuponki liittyy toiseen tuotteeseen",
+        "PurchaseErrorCode18": "Käyttäjällä on jo tämä tuote",
+        "PurchaseErrorCode19": "Virhe ostotapahtumassa. Palaa takaisin 'Valitse tuote' -sivulle ja valitse tuote uudelleen.",
+        "PurchaseErrorCode27": "Päällekkäinen maksutapahtuma. Käyttäjä osti tämän tuotteen aiemmin (Tämä virheilmoitus voi myös tulla jos latasit tämän sivun uudelleen)",
+        "PurchaseErrorCode28": "Käyttäjä perui ostoksen",
+        "IncludeVat": "Sis. {{taxPerc}}% {{taxType}}",
+        "ReceiptThank": "Kiitos ostoksestasi, voit halutessasi palata etusivulle.",
+        "ReceiptText": "Ostetut tuotteet:",
+        "ReceiptPurchaseFailed": "Ostotapahtuma epäonnistui",
+        "ReceiptMoveToOrig": "Palaa videosivulle",
+        "ReceiptMoveToFront": "Palaa etusivulle"
+    },
+    "reactDateRange":{
+
+        "today":"Tänään",
+        "yesterday":"Eilen",
+        "thisWeek":"Tämä viikko",
+        "lastWeeek":"Viime viikko",
+        "thisMonth":"tässä kuussa",
+        "lastMonth":"viime kuukausi",
+        "daysUpToToday":"Päivää tähän päivään",
+        "daysStartingToday":"Päivät alkavat tänään"
+
+    },
+    "product" : {
+        "buy" : "Osta"
+    },
+    "profileMenu": {
+        "loginFirst" : "Nähdäksesi tämän sivun, sinun tulee kirjautua sisään",
+        "userDetails" : "Käyttäjätiedot",
+        "subscriptions" : "Tilaukset",
+        "changePassword" : "Vaihda salasana"
+    },
+    "search" : {
+        "searchButton" : "Hae",
+        "newFirst" : "Uusimmat ensin",
+        "alphabetically" : "A-Z",
+        "showAll" : "Näytä kaikki",
+        "showOnlyMovies" : "Vain elokuvat ja jaksot",
+        "showOnlySeries" : "Vain sarjat",
+        "searchByName" : "Etsi nimellä",
+        "searchResults" : "tulosta",
+        "searchNoMatch" : "Valitettavasti emme löytäneet yhtään hakuasi vastaavaa videota. Tarkistithan hakusanan?",
+        "back":"takaisin"
+
+    },
+    "seasonsAndEpisodes" : {
+        "title" : "Kausi"
+    },
+    "seriesSlider" : {
+        "title" : "SARJAT","latest":"Uusimmat","trending":"Suosittua juuri nyt"
+    },
+    "signUpBar" : {
+        "inputPlaceholderEmail" : "Sähköposti",
+        "signupButton" : "Liity",
+        "subscribe" : "Tilaa",
+        "welcomeText1" : "Rekisteröidy ja tilaa Hevosviihde tästä!",
+        "welcomeText2" : "",
+        "errorIncorrectEmailAddress" : "Virheellinen sähköposti, yritä uudelleen"
+    },
+    "signUpForm" : {
+        "agreeOnTerms" : "Rekisteröitymällä hyväksyt tietosuojaehtomme",
+        "title" : "Rekisteröityminen",
+        "address" : "Lähiosoite",
+        "city" : "Kaupunki",
+        "country" : "Maa",
+        "dateOfBirth" : "Syntymäaika",
+        "firstName" : "Etunimi",
+        "lastName" : "Sukunimi",
+        "phone" : "Puhelin",
+        "organizationName" : "Yrityksen nimi (vapaaehtoinen)",
+        "yTunnus" : "Y-tunnus (vapaaehtoinen)",
+        "postalCode" : "Postinumero",
+        "askForAddress" : "Anna lähiosoite",
+        "askForCity" : "Anna kaupunki",
+        "askForCountry" : "Valitse maa",
+        "askForPostalCode" : "Anna postinumero",
+        "askForYtunnus" : "Anna Y-tunnus",
+        "askForOrganizationName" : "Anna yrityksen nimi",
+        "askForConfirmPassword" : "Anna salasana uudelleen",
+        "askForDateOfBirth" : "Anna syntymäaika",
+        "askForFirstName" : "Anna etunimi",
+        "askForLastName" : "Anna sukunimi",
+        "askForPassword" : "Anna salasana",
+        "askForPhone" : "Anna puhelinnumero",
+        "errorPasswordNotLongEnough" : "Salasanan täytyy olla vähintään {{count}} merkkiä pitkä",
+        "errorPasswordsDontMatch" : "Salasanat eivät täsmää",
+        "inputPlaceholderEmail" : "Sähköposti",
+        "incorrectEmailAddress" : "Virheellinen sähköpostiosoite, yritä uudelleen",
+        "submitButton" : "Seuraava"
+        
+    },
+    "similarSlider" : {
+        "title" : "Samankaltaisia"
+    },
+    "subscriptions": {
+        "subTitle" : "Tilaukset",
+        "assetTitle": "Ostot",
+        "activeTill" : "Voimassaoloaika",
+        "nextPayment" : "Seuraava maksu",
+        "buyDate" : "Ostopäivämäärä",
+        "placeholder" : "Sinulla ei ole tilauksia tai ostoja"
+    },
+    "userDetails" : {
+        "somethingWrongTryAgain" : "Jotain meni vikaan, yritä uudelleen",
+        "profileUpdated" : "Profiili päivitetty",
+        "userDetails" : "Käyttäjätiedot",
+        "inputPlaceholderFirstName" : "Etunimi",
+        "inputPlaceholderLastName" : "Sukunimi",
+        "inputPlaceholderEmail" : "Sähköposti",
+        "inputPlaceholderPhone" : "Puhelin",
+        "inputPlaceholderDateOfBirth" : "Syntymäaika",
+        "inputPlaceholderAddress" : "Osoite",
+        "inputPlaceholderPostalCode": "Postinumero",
+        "inputPlaceholderYtunnus": "Y-Tunnus",
+        "inputPlaceholderOrganizationName": "Yrityksen nimi",
+        "inputPlaceholderCity" : "Kaupunki",
+        "inputPlaceholderCountry" : "Maa",
+        "askForFirstName" : "Anna etunimi",
+        "askForLastName" : "Anna sukunimi",
+        "askforPhone" : "Anna puhelinnumero",
+        "askForDateOfBirth" : "Anna syntymäaika",
+        "askForAddress" : "Anna lähiosoite",
+        "askForCity" : "Anna kaupunki",
+        "askForCountry" : "Valitse maa",
+        "incorrectEmailAddress" : "Virheellinen sähköpostiosoite, yritä uudelleen",
+        "saveChanges" : "Tallenna"
+    },
+    "videoPlayer" : {
+        "showPlayer" : "Näytä video",
+        "close" : "Sulje"
+    }
+    
+} 

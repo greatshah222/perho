@@ -1,0 +1,177 @@
+.EventPrimary {
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--mainWhite);
+  color: var(--silver);
+  margin-top: 50px;
+  padding: 30px;
+}
+.EventSecondary {
+  width: 88%;
+  margin: 0 auto;
+}
+.SecondaryContainer {
+  background-color: black;
+  width: 88%;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+.EventTertairy {
+  width: 88%;
+
+  margin: 0 auto;
+}
+.EventPrimary > * {
+  padding-bottom: 10px;
+}
+
+.EventPrimary_title {
+  padding: 50px 0 20px 0;
+  color: var(--itemTitle);
+}
+h1::after,
+h2::after {
+  display: none;
+}
+.EventPrimary_countdown {
+  /* font-size: 2.5rem; */
+}
+.EventPrimary_countdown {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.EventPrimary_countdown > * + * {
+  margin-left: 20px;
+}
+
+.EventPrimary_countdown span {
+  padding: 20px;
+  background-color: var(--itemTitle);
+  color: var(--mainWhite);
+}
+.EventPrimary_countdown_description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.EventPrimary_countdown_description > * + * {
+  margin-top: 10px;
+}
+
+.EventPrimary_countdown_description p,
+.EventPrimary_date,
+.EventPrimary_time {
+  /* font-size: 1.3rem; */
+}
+
+.EventPrimary_date,
+.EventPrimary_time {
+  display: flex;
+  /* margin-top: 10px; */
+  align-items: center;
+}
+.EventPrimary_date > * + * {
+  margin-left: 20px;
+}
+.EventPrimary_time > * + * {
+  margin-left: 20px;
+}
+.EventTimeDescription > * + * {
+  margin-top: 20px;
+}
+.EventTimeDescription {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  color: var(--brand);
+}
+
+.EventPrimary_description > * {
+  margin: 30px 0;
+  line-height: 200%;
+}
+.EventPrimary_description span,
+.EventPrimary_description p,
+.EventPrimary_description h1 h2 h3 {
+  background-color: white !important;
+  color: var(--mainBlack) !important;
+}
+.EventPrimary_description a {
+  text-decoration: none;
+  color: var(--brand);
+}
+.EventPrimary_description a:hover {
+  text-decoration: underline;
+  color: var(--brandHover);
+}
+.EventPrimary_description p {
+  font-size: 1.1rem;
+}
+
+/* // ticket */
+.buyTicket {
+  display: flex;
+  align-items: center;
+  /* width: 88%; */
+  /* margin: 0 auto; */
+}
+.buyTicket button {
+  line-height: 150%;
+  /* background-color: var(--brand); */
+  /* color: var(--mainWhite); */
+  /* height: 40px;
+  max-height: 40px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buyTicket > * + * {
+  margin-left: 100px;
+}
+.buyTickets_info_input_null {
+  visibility: hidden;
+  opacity: 0;
+}
+.buyTickets_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.buyTickets_info > * + * {
+  margin-top: 10px;
+}
+.buyTickets_info_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buyTickets_info_input > * + * {
+  margin-left: 10px;
+}
+.buyTickets_info_input input {
+  /* height: 40px; */
+  padding: 12px 12px;
+  width: 250px;
+  /* max-height: 40px; */
+}
+.buyTickets_info_btn {
+  background-color: var(--mainBlack) !important;
+}
+@media (max-width: 1140px) {
+  .SecondaryContainer {
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .EventTertairy {
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}

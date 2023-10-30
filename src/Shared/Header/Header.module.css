@@ -1,0 +1,14 @@
+.HeaderTitle{
+    height: 100%;
+    border: none;
+    color: #353535;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 140%;
+    transition: 0.3s ease;
+    font-weight: 800;
+    padding: 30px 0px;
+
+
+}
+
